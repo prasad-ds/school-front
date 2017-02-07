@@ -28,7 +28,6 @@ describe('Box', () => {
         
         const wrapper = shallow(<Box css="selected"/>);
         const html = wrapper.html();
-        console.log("html", html)
         expect(html).to.equal('<div class="box"><div class="selected"></div></div>');
         
     });
@@ -37,7 +36,6 @@ describe('Box', () => {
         
         const wrapper = shallow(<Box id="3"/>);
         const html = wrapper.html();
-        console.log("html", html)
         expect(html).to.equal('<div class="box"><div data-id="3"></div></div>');
         
     });
@@ -46,7 +44,6 @@ describe('Box', () => {
         
         const wrapper = shallow(<Box css="empty" id="3" text="bob@aol.com"/>);
         const html = wrapper.html();
-        console.log("html", html)
         expect(html).to.equal('<div class="box"><div data-id="3" class="empty">bob@aol.com</div></div>');
         
     });

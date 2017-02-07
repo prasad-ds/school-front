@@ -42,7 +42,6 @@ describe('List', () => {
   });
 
   it('should call fn when 2nd box is clicked', () => {
-      console.log("kbfhbdvd")
     const stub = sinon.stub();
     const wrapper = mount(<List click={stub} header="Students" items={students} />);
     wrapper.find(Box).at(1).find('div > div').simulate('click');

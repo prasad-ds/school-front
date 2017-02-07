@@ -1,0 +1,41 @@
+.create-klass{
+  background-color: limegreen;
+  border-radius: 10px;
+  border: 2px solid #f39c12;
+  padding: 10px;
+}
+
+.create-klass input{
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+}
+
+.create-klass select{
+  background-color: white;
+  border-radius: 5px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+  height: 40px;
+}
+
+.create-klass button{
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.create-klass .error{
+  background-color: #c0392b;
+  color: white;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.create-klass label{
+  color: yellow;
+  padding: 5px;
+  margin-bottom: 10px;
+}
